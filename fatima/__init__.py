@@ -6,7 +6,7 @@ app = Flask(__name__)
 #PRIMERA FUNCION
 @app.route('/')
 def index():
-    return  render_template('prueba.html')      
+    return  render_template('index.html')      
 
 #PONE LA IMAGEN EN LA PRIMERA FUNCION
 @app.route('/media/<path:filename>')
