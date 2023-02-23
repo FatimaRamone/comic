@@ -21,7 +21,7 @@ def audio_file(filename):
     return send_file(file_path)  
    
 #segunda funcion MUESTRA SEGUNDO HTML
-@app.route('/comic/pruebados')
+@app.route('/pruebados')
 def pruebaDOS():
     return  render_template('pruebaDOS.html')
 
